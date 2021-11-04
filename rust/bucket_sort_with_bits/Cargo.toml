@@ -1,0 +1,19 @@
+[package]
+name = "bucket_sort_with_bits"
+version = "0.1.0"
+authors = ["Ayato <a8t.dev@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "generate"
+path = "src/generate.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.19"
+rand = "0.8.4"
